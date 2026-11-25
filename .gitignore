@@ -1,0 +1,32 @@
+# Only the code goes in the repository: host/, jetson/ and the README.
+/*
+!/.gitignore
+!/README.md
+!/host/
+!/jetson/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ruff_cache/
+.pytest_cache/
+
+# Experiment logs (one CSV + JSON per run)
+host/runs/
+
+# Model files (large; built on the Jetson)
+*.engine
+*.onnx
+*.pt
+*.pth
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.env

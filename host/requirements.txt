@@ -1,0 +1,5 @@
+carla==0.9.15
+fastapi
+uvicorn[standard]  # [standard] adds WebSocket support for the live status
+pillow  # JPEG encoding for the dashboard camera view
+numpy  # LiDAR point clouds

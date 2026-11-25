@@ -1,0 +1,4 @@
+numpy
+ultralytics      # YOLO object detection; also brings opencv-python and torch (use NVIDIA's Jetson torch build)
+# tensorrt       # comes with JetPack (python3-libnvinfer); not installed with pip
+# onnxruntime    # only for testing the pipeline on a PC with the .onnx files (tools/offline_check.py)
