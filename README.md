@@ -4,6 +4,9 @@ A fault-tolerant autonomous driving platform.
 
 A capstone project: a self-driving car in the CARLA simulator, driven by an NVIDIA Jetson Orin Nano, with a Basys 3 FPGA planned as an independent safety monitor. The goal is to test what happens when the driving computer fails, and to show that a separate, simpler piece of hardware can detect the failure and bring the car to a safe stop.
 
+
+
+
 ## Architecture
 
 ```
